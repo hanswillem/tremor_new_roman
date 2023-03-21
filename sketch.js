@@ -5,7 +5,8 @@ var allCurves = [];
 
 
 function setup() {
-    createCanvas(windowWidth, windowHeight);
+    #createCanvas(windowWidth, windowHeight);
+    createCanvas(1280, 720);
     noFill();
     cursor(CROSS);
 
